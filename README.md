@@ -32,11 +32,11 @@ Updates order status accordingly
 Designed to be easily integrated with real payment gateways like Stripe or PayPal
 
 # Tech Stack
-Java
-Spring Boot
-Spring Security
-JWT
-MySQL
+Java,
+Spring Boot,
+Spring Security,
+JWT,
+MySQL,
 JPA / Hibernate
 
 # Database Design
