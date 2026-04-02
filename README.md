@@ -32,22 +32,22 @@ Updates order status accordingly
 Designed to be easily integrated with real payment gateways like Stripe or PayPal
 
 # Tech Stack
-Java, 
-Spring Boot, 
-Spring Security, 
-JWT, 
-MySQL, 
-JPA / Hibernate
+- Java
+- Spring Boot
+- Spring Security 
+- JWT
+- MySQL
+- JPA / Hibernate
 
 # Database Design
-One-to-Many: User → Orders, 
-Many-to-Many: Orders ↔ Products, 
-Cart linked with User and Products,
+- One-to-Many: User → Orders 
+- Many-to-Many: Orders ↔ Products
+- Cart linked with User and Products
 
 # Error Handling
-Proper validation for inputs, 
-Meaningful error messages, 
-HTTP status codes (200, 201, 400, 401, 404)
+- Proper validation for inputs, 
+- Meaningful error messages, 
+- HTTP status codes (200, 201, 400, 401, 404)
 
 # Testing
 APIs tested using Postman
