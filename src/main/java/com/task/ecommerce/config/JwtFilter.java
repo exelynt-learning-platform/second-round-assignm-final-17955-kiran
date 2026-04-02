@@ -77,7 +77,7 @@ public class JwtFilter extends OncePerRequestFilter {
             }
 
         } catch (Exception e) {
-            // Invalid token → ignore
+            // Invalid token 
         }
 
         // Continue request
