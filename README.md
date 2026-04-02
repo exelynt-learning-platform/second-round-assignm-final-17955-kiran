@@ -6,26 +6,26 @@ Final Project Assignment - This repository contains the complete final project c
 This project is a backend system for an e-commerce platform developed using Spring Boot. It includes user authentication, product management, cart management, order processing, and payment integration.
 
 # Features
-Authentication & Authorization: 
+- Authentication & Authorization: 
 User registration and login
 JWT-based authentication using Spring Security
 Role-based authorization (User/Admin)
 
-Product Management: 
+- Product Management: 
 Create, update, delete, and view products
 Product attributes: name, description, price, stock quantity, image URL
 
-Cart Management: 
+- Cart Management: 
 Add products to cart
 Update and remove items from cart
 Each user can manage only their own cart
 
-Order Management: 
+- Order Management: 
 Create orders from cart
 Store total price, shipping details, and payment status
 View order details
 
-Payment Integration: 
+- Payment Integration: 
 Implemented simulated payment processing
 Handles payment success and failure scenarios
 Updates order status accordingly
