@@ -48,6 +48,19 @@ Designed to be easily integrated with real payment gateways like Stripe or PayPa
 - Proper validation for inputs, 
 - Meaningful error messages, 
 - HTTP status codes (200, 201, 400, 401, 404)
+  
+# API Modules
+- Auth APIs (Login/Register)
+- Product APIs
+- Cart APIs
+- Order APIs
+- Payment APIs
+  
+# How to Run
+- Clone the repository
+- Configure MySQL database in application.properties
+- Run the Spring Boot application
+- Access APIs using Postman
 
 # Testing
 APIs tested using Postman
